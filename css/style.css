@@ -1,4 +1,6 @@
-
+html, body{
+  height: 100%;
+}
 div{
   width: 75px;
   height: 75px;
@@ -8,6 +10,7 @@ div{
 }
  .pic_mercury{
   height: 66.6%;
+  
 } 
 .pic_venus{
   height: 100%;
@@ -20,24 +23,26 @@ div{
   height: 50%;
 }
 .pic_jupiter{
-  height: 1100%;
+  height: 300%;
 }
 
 .pic_saturn{
-  height: 950%;
+  height: 275%;
 }
 
 .pic_uranus{
-  height: 400%;
+  height: 150%;
 }
 
 .pic_neptune{
-  height: 400%;
+  height: 150%;
 }
 
 .pic_pluto{
   height: 20%;
 }
 
-
+.mercury{
+  margin-top: 25%;
+}
 
