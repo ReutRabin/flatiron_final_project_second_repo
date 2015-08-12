@@ -1,0 +1,43 @@
+
+div{
+  width: 75px;
+  height: 75px;
+  float: left;
+  box-sizing: border-box;
+  border: 1px green dashed;
+}
+ .pic_mercury{
+  height: 66.6%;
+} 
+.pic_venus{
+  height: 100%;
+}
+.pic_earth{
+  height: 100%;
+}
+
+.pic_mars{
+  height: 50%;
+}
+.pic_jupiter{
+  height: 1100%;
+}
+
+.pic_saturn{
+  height: 950%;
+}
+
+.pic_uranus{
+  height: 400%;
+}
+
+.pic_neptune{
+  height: 400%;
+}
+
+.pic_pluto{
+  height: 20%;
+}
+
+
+
