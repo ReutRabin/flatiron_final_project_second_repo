@@ -2,8 +2,8 @@
 div{
    width: 75px;
   height: 75px; 
-   box-sizing: border-box; 
-  border: 1px green dashed; 
+/*    box-sizing: border-box; 
+  border: 1px green dashed;  */
 }
  .pic_mercury{
   height: 66.6%;
@@ -50,6 +50,7 @@ body {
   background-color: black;
 }
 .everything{
+z-index: 1;
 height: 150%; 
 float: center; 
 position: inline-block;
@@ -95,15 +96,21 @@ body {
 }
 
 .info{
-  z-index: 1; 
+  z-index: 100; 
   color: white;
    font-family: 'Homenaje', sans-serif;
-   position: static;
+   position: absolute;
    opacity: 60%;
    text-align: left;
+   border: 4px solid white;
    left: -150px;
    right: -150px;
-   top: -150px; */
+   top: -150px;
+  font-size: 120%;
+  background: black;
+  opacity: 0.6;
+  padding-top: 1px;
+  padding-left: 5px;
 }
 
 h3.name{
@@ -116,10 +123,41 @@ h3.name{
 }
 
 h1{
-  font-family: 'Homenaje', sans-serif;
-  position: fixed;
+font-family: 'Homenaje', sans-serif;
+position: fixed;
   top: -25px;
-  left: 40%;
-  font-size: 200%;
+  left: 37%;
+  font-size: 300%;
   text-align: center;
+
+}
+
+.scale {
+  color: white;
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  width: 20%;
+  text-align: right;
+  height: 6.5%;
+  opacity: 0.4;
+}
+
+.info-pluto{
+  z-index: 100; 
+  color: white;
+   font-family: 'Homenaje', sans-serif;
+   position: absolute;
+   opacity: 60%;
+   text-align: left;
+   font-size: 120%;
+  background: black;
+  opacity: 0.6;
+  padding-top: 1px;
+  padding-left: 5px;
+   left: -150px;
+   right: -10px;
+   top: -150px;
+  border: 4px solid white;
+
 }
