@@ -2,8 +2,8 @@
 div{
    width: 75px;
   height: 75px; 
-  box-sizing: border-box;
-  border: 1px green dashed;
+   box-sizing: border-box; 
+  border: 1px green dashed; 
 }
  .pic_mercury{
   height: 66.6%;
@@ -61,6 +61,7 @@ margin-top: 5%;
   float:left;
   margin-right: 2%;
   margin-top: 10%;
+  position: relative;
 }
 .jupiter {
 /*   margin-right: 4%; */
@@ -92,12 +93,24 @@ body {
 .hidden{
   display:none;
 }
-*{
-  color: white;
-  font-family: 'Varela Round', sans-serif;
-}
 
 .info{
-   color: white;
+  z-index: 1; 
+  color: white;
    font-family: 'Varela Round', sans-serif;
+   position: static;
+   opacity: 60%;
+   text-align: left;
+   left: -150px;
+   right: -150px;
+   top: -150px; */
+}
+
+h3.name{
+  position:absolute;
+  top:-50px;
+}
+*{
+  color: white;
+  font-family: 'Varela Round', sans-serif; 
 }
