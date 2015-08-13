@@ -1,16 +1,11 @@
-html, body{
-  height: 100%;
-}
 div{
-  width: 75px;
-  height: 75px;
-  float: left;
+   width: 75px;
+  height: 75px; 
   box-sizing: border-box;
   border: 1px green dashed;
 }
  .pic_mercury{
   height: 66.6%;
-  
 } 
 .pic_venus{
   height: 100%;
@@ -42,7 +37,60 @@ div{
   height: 20%;
 }
 
-.mercury{
-  margin-top: 25%;
+.sun{
+  height: 120%;
 }
 
+.mercury {
+  margin-left: 10%;
+}
+
+body {
+  background-color: black;
+}
+.everything{
+height: 50%; 
+float: center; 
+position: inline-block;
+overflow: hidden;
+width: 2000px;
+margin-top: 5%;
+}
+.planet{
+  float:left;
+  margin-right: 2%;
+  margin-top: 10%;
+}
+.jupiter {
+/*   margin-right: 4%; */
+  margin-left:15%;
+}
+.saturn{
+  margin-left: 5%;
+}
+.uranus{
+  margin-left:5%;
+}
+.neptune{
+  margin-left: 2%;
+}
+.pluto{
+  margin-left: 2%;
+}
+
+
+body {
+  background: url("../images/giphy.gif");
+  background-size: cover;
+}
+
+.box_earth{
+  background-color: yellow;
+}
+
+.hidden{
+  visibility:hidden;
+}
+*{
+  color: white;
+}
