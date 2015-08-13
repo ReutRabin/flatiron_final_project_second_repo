@@ -1,7 +1,10 @@
 $(document).ready(function(){
-
-$("img").click(function(){
-        $(".box").toggleClass("hidden");
-    });
+$(".info").addClass("hidden");
+$(".planet").click(function(){
+         $(this).children(".info").toggleClass("hidden");
+      
 
 });
+
+ });
+

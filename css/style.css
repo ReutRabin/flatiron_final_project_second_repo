@@ -1,3 +1,4 @@
+/* font-family: 'Varela Round', sans-serif; */
 div{
    width: 75px;
   height: 75px; 
@@ -49,11 +50,11 @@ body {
   background-color: black;
 }
 .everything{
-height: 50%; 
+height: 150%; 
 float: center; 
 position: inline-block;
 overflow: hidden;
-width: 2000px;
+width: 2200px;
 margin-top: 5%;
 }
 .planet{
@@ -89,8 +90,14 @@ body {
 }
 
 .hidden{
-  visibility:hidden;
+  display:none;
 }
 *{
   color: white;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.info{
+   color: white;
+   font-family: 'Varela Round', sans-serif;
 }
