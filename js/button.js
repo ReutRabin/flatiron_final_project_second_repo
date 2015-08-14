@@ -25,7 +25,7 @@ function space(){
     $('#uranus-real').toggleClass('uranus-real', true);
     
      $('#neptune-real').toggleClass('neptune', false);
-    $('#neptune-real').toggleClass('neptune', true);
+    $('#neptune-real').toggleClass('neptune-real', true);
     
      $('#pluto-real').toggleClass('pluto', false);
     $('#pluto-real').toggleClass('pluto-real', true);
@@ -64,7 +64,7 @@ function space1(){
     $('#uranus-real').toggleClass('uranus-real', false);
     
      $('#neptune-real').toggleClass('neptune', true);
-    $('#neptune-real').toggleClass('neptune', false);
+    $('#neptune-real').toggleClass('neptune-real', false);
     
      $('#pluto-real').toggleClass('pluto', true);
     $('#pluto-real').toggleClass('pluto-real', false);

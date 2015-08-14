@@ -48,6 +48,7 @@ div{
   height: 120%;
   position: absolute;
   bottom: 90px;
+  margin-top: 70px;
 }
 
 .mercury {
@@ -58,16 +59,16 @@ div{
 z-index: 1;
 height: 150%; 
 float: center; 
-position: inline-block;
+position: relative;
 overflow: hidden;
 width: 150%;
 margin-top: 5%;
-  display: relative;
+display: inline-block;
 }
 .planet{
   float:left;
   margin-right: 2%;
-  margin-top: 10%;
+  margin-top: 200px;
   position: relative;
 }
 .jupiter {
@@ -210,6 +211,7 @@ button{
   margin-left: 79.2px;
   animation-name: "mercury-anim";
   animation-duration:2s;
+  position: relative;
 }
 /* @keyframes mercury-anim{
   from{margin-left: 0px;}
@@ -220,6 +222,7 @@ button{
   margin-left: 67.5px;
   animation-name:"venus-anim";
   animation-duration:2s;
+  position: relative;
 }
 /* @keyframes venus-anim{
   from{margin-left: 0px;};
@@ -230,6 +233,7 @@ button{
   margin-left: 57.31px;
   animation-name:"earth-anim";
   animation-duration:2s;
+  position: relative;
 }
 /* @keyframes earth-anim{
   from{margin-left: 0px;};
@@ -287,6 +291,7 @@ button{
   margin-left: 3351.29px;
   animation-name: "pluto-anim";
   animation-duration: 2s;
+  position: relative;
 } 
 /* 
 @keyframes pluto-anim{
@@ -300,11 +305,11 @@ a{
  
 .everything-scaled{
   z-index: 1;
-height: 150%; 
+height: 684.391px; 
 float: center; 
 position: inline-block;
 overflow: hidden;
-width: 12000px;
+width: 13000px;
 margin-top: 5%;
 } 
 
