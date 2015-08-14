@@ -209,90 +209,90 @@ button{
   .mercury-real{
   margin-left: 79.2px;
   animation-name: "mercury-anim";
-  animation-duration:10s;
+  animation-duration:2s;
 }
-@keyframes mercury-anim{
+/* @keyframes mercury-anim{
   from{margin-left: 0px;}
   to{margin-left:79.2px;}
-}
+} */
 
 .venus-real{
-  margin-left: 99px;
+  margin-left: 67.5px;
   animation-name:"venus-anim";
   animation-duration:2s;
 }
-@keyframes venus-anim{
+/* @keyframes venus-anim{
   from{margin-left: 0px;};
   to{margin-left: 99px;};
-}
+} */
 
 .earth-real{
-  margin-left: 354px;
+  margin-left: 57.31px;
   animation-name:"earth-anim";
   animation-duration:2s;
 }
-@keyframes earth-anim{
+/* @keyframes earth-anim{
   from{margin-left: 0px;};
   to{margin-left:354px;};
-}
+} */
 .mars-real{
-  margin-left: 303.6px;
+  margin-left: 106.4px;
   animation-name: "mars-anim";
   animation-duration: 2s;
 }
-@keyframes mars-anim{
+/* @keyframes mars-anim{
   from{margin-left: 0px;;};
   to{margin-left: 303.6px;};
-}
+} */
 .jupiter-real{
-  margin-left: 752.4px;
+  margin-left: 753px;
   animation-name:"jupiter-anim";
   animation-duration:2s;
 }
-@keyframes jupiter-anim{
+/* @keyframes jupiter-anim{
   from{margin-left: 15px;}
   to {margin-left:250.8px;};
  
-}
+} */
 
 .saturn-real{
-  margin-left: 785.4px;
+  margin-left: 888.11px;
   animation-name: "saturn-anim";
   animation-duration: 2s;
 }
-@keyframes saturn-anim{
+/* @keyframes saturn-anim{
   from{margin-left:5px;};
   to{margin-left:785.4px;};
-}
+} */
 .neptune-real{
-  margin-left: 1980px;
+  margin-left: 2233px;
   animation-name: "neptune-anim";
   animation-duration: 2s;
 }
- @keyframes neptune-anim{
+/*  @keyframes neptune-anim{
   from{margin-left: 5px;};
   to{margin-left: 1980px;};
 }
-
+ */
 .uranus-real{
-  margin-left: 1892px;
+  margin-left: 1964.27px;
   animation-name: "uranus-anim";
   animation-duration: 2s;
 }
-@keyframes uranus-anim{
+/* @keyframes uranus-anim{
   from{margin-left: 2px;};
   to{margin-left: 1892px;};
-}
+} */
 .pluto-real{
-  margin-left: 902px;
+  margin-left: 3351.29px;
   animation-name: "pluto-anim";
   animation-duration: 2s;
 } 
-
+/* 
 @keyframes pluto-anim{
   from{margin-left:2px;};
   to{margin-left:902px;};
-} 
+}  */
 
 a{
   text-decoration: none;
@@ -304,7 +304,7 @@ height: 150%;
 float: center; 
 position: inline-block;
 overflow: hidden;
-width: 8000px;
+width: 12000px;
 margin-top: 5%;
 } 
 
