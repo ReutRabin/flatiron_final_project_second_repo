@@ -13,72 +13,77 @@
    
   </head>
   <button id="btn" onclick="space()"> Change Planet Spacing Relativity </button>
+  <button id="btn1" onclick="space1()"> Revert to Original Spacing </button>
   <body>
    <h1> THE SOLAR SYSTEM </h1>
     
-   <div class= "main-div everything">
+   <div class= "main-div everything" id="everything">
          <div class="sun planet">
      <h3 class="name hidden">Sun</h3>
        <img class="sun planet" src="images/sun.png">
            <p class="sun-info info">Diameter: 1,392,684 km     Relative Size: 109 times larger than earth    Fact:   One million earths could fit inside our sun. The sun contains 99.86% of all the mass in our solar system. Although we perceive the sun as huge, our sun is average in every way- luminosity, size, age, and temperature. 
            </p>
      </div>
-   <div class = "mercury planet">
-     <h3 class="name hidden">Mercury</h3>
+   <div class = "mercury planet" id="mercury-real">
+<!--      <h3 class="name hidden">Mercury</h3> -->
      <img class="pic_mercury" src="images/mercury.png">
      <p class="info">Diameter: 4,879 km   Relative Size: ⅓ size of earth   Distance to Sun:  57.9 million km Fact: Although Mercury is the smallest planet in the entire solar system, it is the second densest planet. This is largely because it is made of heavy rocks and metals whereas planets like Jupiter and Saturn are largely made up of gas. Hence their name, “The Gas Giants.”
  </p>
+      <h3 class="name hidden">Mercury</h3>
    </div>
-   <div class="venus planet">
+   <div class="venus planet" id="venus-real">
      <h3 class="name hidden">Venus</h3>
     <img class="pic_venus"src="images/venus.png">
      <p class="info">
        Diameter: 12,104 km Relative Size: Earth is the same size as Earth. Distance to Sun:  108.2 million km Fact: Venus’ year is actually shorter than it’s day by 19 earth days. This is because it takes venus longer to make a full rotation than to orbit the sun. 
      </p>
      </div>
-   <div class="earth planet">
+   <div class="earth planet" id="earth-real">
      <h3 class="name hidden">Earth</h3>
      <img class="pic_earth" src="images/earth.png">
      <p class= "info"> 
      Diameter: 12,756 km Distance to Sun: 149.6 million  km Fact: Earth is the only KNOWN planet to have living beings on it. The largest living thing was a mushroom fungus in Oregon that grew to over 2200 acres!
      </p>
    </div>
-   <div class="mars planet">
+   <div class="mars planet" id="mars-real">
    <h3 class="name hidden">Mars</h3>
      <img class="pic_mars" src="images/mars.png">
      <p class="info"> 
        Diameter: 6,794 km   Relative Size: ½ size of earth    Distance to Sun: 227.9 million km  Fact: Like the desert on Earth, Mars has dust storms. Unlike the deserts on Earth, the dust storms can last for months at a time and are an extreme weather occurance that happen due to the length of mars’ year. Mars’ year is 687 earth days long!
      </p>
    </div>
-   <div class="jupiter planet">
+<!--     <div class="astroid">
+     <img class="astroid_pic" src="images/astroid_belt.png">
+     </div> -->
+   <div class="jupiter planet" id="jupiter-real">
      <h3 class="name hidden">Jupiter</h3>
      <img class="pic_jupiter" src="images/jupiter.png">
      <p class="info"> 
      Diameter: 142,984    Relative Size: 11 times larger than earth     Distance to Sun: 778.4 million km  Fact: Jupiter’s year is equal to 11.7 earth years! A planet’s year is calculated by the amount of time it takes for the planet to complete its orbit around the sun.
      </p>
    </div>
-   <div class="saturn planet">
+   <div class="saturn planet" id="saturn-real">
      <h3 class="name hidden">Saturn</h3>
      <img class="pic_saturn" src="images/saturn.png">
    <p class="info">
      Diameter: 120,536    Relative Size: 9.5 times larger than earth      Distance to Sun: 1,426 million km     Fact: Saturn is less dense than liquid water, which means that if there was a body of water large enough to put saturn in, it would float! That body of water would be hard to find though, considering Saturn is almost 10 times larger than earth.
      </p>
      </div>
-   <div class="uranus planet">
+   <div class="uranus planet" id="uranus-real">
    <h3 class="name hidden">Uranus</h3>
      <img class="pic_uranus" src="images/uranus.png">
    <p class="info">
 Diameter:  51,118   Relative Size: 4 times larger than earth     Distance to Sun: 2,871 million km      Fact: Uranus is a very interesting part of the solar system. It is often described that Uranus “goes around the sun on its side” because the planet is tilted 98 degrees on it’s axis. Another fun fact about Uranus is that it could not be seen by the naked eye. It was the first planet to be discovered using a telescope in 1781 by Sir William Herschel.
      </p>
      </div>
-   <div class="neptune planet">
+   <div class="neptune planet" id="neptune-real">
    <h3 class="name hidden">Neptune</h3>
      <img class="pic_neptune" src="images/neptune.png">
      <p class="info hidden">
      Diameter: 49,528  Relative Size:  4 times larger than earth   Distance to Sun:      4,498.3 million km     Fact: Like it’s neighbour, Uranus, Neptune can not be seen by the naked eye. It too was discovered using a telescope and mathematical predictions. Like many of the other planets in our solar system, it was named after gods in Roman mythology.
      </p>
    </div>
-     <div class="pluto planet">
+     <div class="pluto planet" id="pluto-real">
      <h3 class="name hidden">Pluto</h3>
        <img class="pic_pluto" src="images/pluto.png">
        <p class="info-pluto info">
